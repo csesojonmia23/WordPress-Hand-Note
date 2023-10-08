@@ -1,0 +1,13 @@
+.top_header_area {
+  background: red;
+  padding: 10px 0;
+  margin-bottom: 15px;
+}
+.top_header_area p {
+  margin: 0;
+  color: #fff;
+}
+.top_header_area i {
+  display: inline-block;
+  margin-right: 10px;
+}

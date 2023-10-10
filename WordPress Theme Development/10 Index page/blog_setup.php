@@ -1,4 +1,4 @@
-          <?php if (have_posts()) :
+<?php if (have_posts()) :
               while (have_posts()) : the_post(); ?>
 
               <div class="blog_area">
@@ -12,10 +12,11 @@
               </div>
           <?php endwhile;
             else :
-              _e('No post found', 'alihossain');
+              _e('No post found', 'wptdwithbootstrap');
             endif; ?>
+            <!-- Page Navigation -->
           <div id="page_nav">
-            <?php if ('ali_pagenav') {ali_pagenav(); } else{ ?>
+            <?php if ('wptdwithbootstrap_pagenav') {wptdwithbootstrap_pagenav(); } else{ ?>
                 <?php next_posts_link(); ?>
                 <?php previous_posts_link(); ?>
             <?php } ?>

@@ -3,7 +3,7 @@
 // Enqueue css and js
 function lazy_css_js_enqueue(){
      // Theme default css
-     wp_enqueue_style( 'wptd-style', get_stylesheet_uri());
+     wp_enqueue_style( 'lazy-style', get_stylesheet_uri());
      // Bootstrap css
      wp_register_style('bootstrap-css', get_template_directory_uri().'/assets/css/bootstrap.min.css', array(), '5.0.2', 'all');
      wp_enqueue_style('bootstrap-css');

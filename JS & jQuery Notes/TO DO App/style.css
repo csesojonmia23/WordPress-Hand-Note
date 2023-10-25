@@ -1,0 +1,41 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.main{
+     margin-top: 20px;
+     text-align: center;
+}
+.main input{
+     width: 20%;
+     padding: 10px;
+}
+.main button{
+     padding: 10px 20px;
+     background-color: #000;
+     color: #fff;
+     cursor: pointer;
+     text-transform: uppercase;
+}
+.todo_item{
+     background-color: #ddd;
+     width: 400px;
+     height: 400px;
+     box-shadow: 4px 5px 10px #000;
+     margin: auto;
+     padding: 15px 30px;
+     border-radius: 5px;
+}
+.todo_item h1{
+     text-align: center;
+     margin-bottom: 10px;
+}
+.todo_item ol{
+     margin-left: 10px;
+}
+.todo_item ol li{
+     margin-bottom: 8px;
+     font-size: 18px;
+     font-weight: bold;
+}

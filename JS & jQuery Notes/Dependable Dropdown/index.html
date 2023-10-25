@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dependent Dropdown with Submit Button</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="dependable_dropdown">
+          <h1>Dependable Dropdown</h1>
+          <form id="dependent-form">
+               <label for="country">Country:</label>
+               <select id="country">
+                    <option value="">-- Select Country --</option>
+                    <option value="Bangladesh">Bangladesh</option>
+               </select>
+     
+               <label for="division">Division:</label>
+               <select id="division" disabled>
+                    <option value="">-- Select Division --</option>
+               </select>
+     
+               <label for="value">Value:</label>
+               <select id="value" disabled>
+                    <option value="">-- Select Value --</option>
+               </select>
+     
+               <button type="submit" id="submit-button" disabled>Submit</button>
+          </form>
+     </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

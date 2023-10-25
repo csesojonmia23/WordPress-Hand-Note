@@ -1,0 +1,34 @@
+*{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     list-style-type: none;
+     text-decoration: none;
+}
+#navbar{
+     background-color: black;
+}
+ul{
+     text-align: center;
+}
+ul li{
+     display: inline-block;
+}
+ul li a{
+     display: block;
+     color: #fff;
+     padding: 20px 10px;
+     font-size: 18px;
+     text-transform: uppercase;
+}
+
+h1{
+     text-align: center;
+     margin-top: 100px;
+}
+
+/* Active navbar */
+.active_item{
+     background-color: #fff;
+     color: #000;
+}

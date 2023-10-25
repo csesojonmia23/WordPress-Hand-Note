@@ -1,0 +1,48 @@
+/* Common CSS */
+*{
+     box-sizing: border-box;
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     outline: none;
+     text-decoration: none;
+
+}
+html{
+     scroll-behavior: smooth;
+}
+img{
+     width: 100%;
+     height: auto;
+}
+/* Header Section CSS */
+#header_section{
+     background-image: url("images/1.jpg");
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     height: 100vh;
+     width: 100%;
+}
+.navbar{
+     background-color: #000;
+     position: fixed;
+     width: 100%;
+}
+.navbar ul{
+     text-align: right;
+}
+.navbar ul li{
+     display: inline-block;
+}
+.navbar ul li a{
+     display: block;
+     color: #fff;
+     padding: 30px 20px;
+     font-size: 18px;
+     text-transform: uppercase;
+}
+.after_scroll_navbar{
+     background-color: #ff000076;
+}

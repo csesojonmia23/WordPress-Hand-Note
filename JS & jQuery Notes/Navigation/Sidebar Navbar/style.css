@@ -1,0 +1,49 @@
+*{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+header{
+     background-color: #000;
+     padding: 30px;
+     width: 100%;
+     text-align: right;
+}
+header i{
+     color: #fff;
+     cursor: pointer;
+     font-size: 25px;
+}
+.sidebar1{
+     width: 300px;
+     height: 100vh;
+     background-color: #242222;
+     position: fixed;
+     transition: 0.5s;
+}
+.sidebar_close{
+     width: 0px;
+     height: 100vh;
+     background-color: #242222;
+     position: fixed;
+     transition: 0.5s;
+}
+
+nav ul{
+     list-style-type: none;
+     margin-top: 40px;
+     text-align: center;
+}
+nav ul li{
+     padding-bottom: 25px;
+}
+nav ul li a{
+     color: #fff;
+     text-decoration: none;
+     font-size: 18px;
+     text-transform: uppercase;
+     display: none;
+}
+nav ul li a.open{
+     display: block;
+}

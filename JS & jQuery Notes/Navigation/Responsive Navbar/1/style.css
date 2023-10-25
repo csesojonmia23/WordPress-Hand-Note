@@ -1,0 +1,52 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+#header_area{
+     background-color: #000000;
+     width: 100%;
+}
+#header_area .header_container{
+     max-width: 92%;
+     margin: 0 auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+#header_area .logo_area{
+     max-width: 30%;
+}
+#header_area .logo_area img{
+     width: 100%;
+     height: auto;
+}
+#header_area .menu_area{
+     max-width: 70%;
+}
+#header_area .menu_area ul{
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+}
+#header_area .menu_area ul li{
+     display: inline-block;
+}
+#header_area .menu_area ul li a{
+     display: block;
+     color: #ffffff;
+     text-decoration: none;
+     font-size: 16px;
+     text-transform: uppercase;
+     padding: 40px 20px;
+     transition: 0.5s;
+}
+#header_area .menu_area ul li a:hover{
+     color: #ddd;
+}
+#header_area .menu_area i{
+     color: #ffffff;
+     font-size: 25px;
+     cursor: pointer;
+     display: none;
+}

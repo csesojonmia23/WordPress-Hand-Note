@@ -1,0 +1,32 @@
+
+/* Mobile navbar css */
+@media only screen and (max-width: 600px) {
+     #header_area{
+          text-align: right;
+     }
+     #header_area i{
+          display: block;
+          padding: 30px 0;
+          cursor: pointer;
+          margin-right: 25px;
+     }
+     .main_nav{
+          background-color: #333;
+     }
+     .main_nav ul li{
+          display: block;
+     }
+     .main_nav ul li a{
+          display: flex;
+          flex-direction: column;
+          border-bottom: 1px solid #ddd;
+          display: none;
+          transition: 0.5s;
+     }
+     .open ul li a{
+          display: block;
+     }
+     .main_nav ul li a:hover{
+          background-color: #221f1f;
+     }
+   }

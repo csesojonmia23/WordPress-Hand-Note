@@ -1,0 +1,28 @@
+html{
+     scroll-behavior: smooth;
+}
+.arrow{
+     background-color: #000000c1;
+     position: fixed;
+     border-radius: 50%;
+     cursor: pointer;
+     transition: 0.5s;
+     right: 10px;
+     bottom: 10px;
+     display: none;
+}
+.arrow.active{
+     display: block;
+}
+.arrow i{
+     color: #fff;
+     font-size: 25px;
+     padding: 10px;
+     transition: 0.5s;
+}
+.arrow i:hover{
+     color: #ff0000;
+}
+.arrow:hover{
+     background-color: green;
+}
